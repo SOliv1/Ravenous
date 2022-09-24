@@ -1,4 +1,6 @@
 [![CodeQL](https://github.com/SOliv1/ravenous/actions/workflows/codeql-analysis.yml/badge.svg?branch=master)](https://github.com/SOliv1/ravenous/actions/workflows/codeql-analysis.yml)
+[![Jekyll site CI](https://github.com/SOliv1/ravenous/actions/workflows/jekyll-docker.yml/badge.svg)](https://github.com/SOliv1/ravenous/actions/workflows/jekyll-docker.yml)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
