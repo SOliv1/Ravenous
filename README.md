@@ -1,6 +1,6 @@
 [![CodeQL](https://github.com/SOliv1/ravenous/actions/workflows/codeql-analysis.yml/badge.svg?branch=master)](https://github.com/SOliv1/ravenous/actions/workflows/codeql-analysis.yml)
 [![Jekyll site CI](https://github.com/SOliv1/ravenous/actions/workflows/jekyll-docker.yml/badge.svg)](https://github.com/SOliv1/ravenous/actions/workflows/jekyll-docker.yml)
-[![Netlify Status](https://api.netlify.com/api/v1/badges/a09b5268-4474-4ea1-8f64-b4d0eba3fe25/deploy-status?=branch=master)](https://app.netlify.com/sites/gentle-centaur-f53dec/deploys)
+
 
 
 
