@@ -1,4 +1,4 @@
-const SECRET_API_KEY=""
+const apiKey ="SECRET_API_KEY"
 
 const Yelp = {
   search(term, location, sortBy) {
