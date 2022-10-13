@@ -8,9 +8,10 @@ class BusinessList extends React.Component {
     return (
       <div className="BusinessList">
         {
-          this.props.businesses.map((business, index) => 
-           <Business key={index} business={business}/>)
-        }
+          this.props.businesses.map((business, index) => {
+            return <Business business={business} key={business.id} />
+          }) 
+        }       
       </div>
     );
   }

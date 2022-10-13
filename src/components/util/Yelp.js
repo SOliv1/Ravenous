@@ -3,7 +3,7 @@ const apiKey =  "my-api-key";
 const Yelp = {
   searchYelp(term, location, sortBy) {
     return fetch(
-      `https://api.yelp.com/v3/businesses/search?term=${term}&location=${location}&sort_by=${sortBy}`,
+      `https://www.codecademy.com/paths/build-web-apps-with-react/tracks/bwa-ajax-requests-and-api-interactions/modules/bwa-ravenous-part-four/projects/interacting-with-yelp-apihttps://api.yelp.com/v3/businesses/search?term=${term}&location=${location}&sort_by=${sortBy}`,
       {
         headers: {
           Authorization: `Bearer ${apiKey}`
