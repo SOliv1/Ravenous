@@ -11,6 +11,8 @@
 # production
 /build
 
+# secret-key
+constants.js
 # misc
 .DS_Store
 .env.py
