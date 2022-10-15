@@ -77,4 +77,15 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 
 #### Within the Ravenous directory in your terminal, run npm install whatwg-fetch --save to install the whatwg-fetch polyfill and add it to your package.json file.
+
+### Set up and hide Api key from view
+const SECRET_API_KEY="xxxxxxxxxxxxxxx"
+then import the SECRET_API_KEY variable and use it where you need it. Given constants.js is in gitignore, it won’t be pushed to github.
+
+even better would to also make constants.js.example, in example, define the variable but give them an empty string:
+
+const SECRET_API_KEY=""
+then in your readme.md, include instructions how this should be set up (copy the example file, and set the variable). the example file can safely be pushed to github.
+
+### Yelp 
 https://www.yelp.com/developers/v3/manage_app
