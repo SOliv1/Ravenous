@@ -87,5 +87,7 @@ even better would to also make constants.js.example, in example, define the vari
 const SECRET_API_KEY=``
 then in your readme.md, include instructions how this should be set up (copy the example file, and set the variable). the example file can safely be pushed to github.
 
+See StackOverflow [here](https://stackoverflow.com/questions/52668940/hiding-api-key-in-react)
+
 ### Yelp 
 https://www.yelp.com/developers/v3/manage_app
