@@ -15,11 +15,13 @@ class SearchBar extends React.Component {
     this.handleLocationChange = this.handleLocationChange.bind(this);
     this.handleSearch = this.handleSearch.bind(this);
     this.handleSortByChange = this.handleSortByChange.bind(this);
-
+   
     this.sortByOptions = {
       'Best Match': 'best_match',
       'Highest Rated': 'rating',
-      'Most Reviewed': 'review_count'
+      'Most Reviewed': 'review_count',
+      //'Distance From': 'distance',//
+      'Closest To Me': 'distance'
     };
   }
 
@@ -30,9 +32,18 @@ class SearchBar extends React.Component {
     return '';
   }
 
-  handleSortByChange(sortByOption) {
-    this.setState({sortBy: sortByOption});
+  handleSortByChange(sortByOption) {	
+    this.setState({ sortBy: sortByOption });	
+    this.props.searchYelp(this.state.term, this.state.location, sortByOption);	
   }
+		
+//replaced "this.state.location" in searchYelp() argument with "document.getElementById('txtPlaces').value" so that Google Places Autocomplete selection is used as location.
+
+  handleSearch(event) {
+  this.props.searchYelp(this.state.term, document.getElementById('txtPlaces').value, this.state.sortBy);
+  event.preventDefault();
+  }
+
 
   handleTermChange(event) {
     this.setState({term: event.target.value});
@@ -44,9 +55,23 @@ class SearchBar extends React.Component {
 
   handleSearch(event) {
     this.props.searchYelp(this.state.term, this.state.location, this.state.sortBy);
-
     event.preventDefault();
   }
+
+  handleKeyPress(event) {
+    if (event.key === 'Enter') {
+      this.props.searchYelp(this.state.term, this.state.location, this.state.sortBy);
+    }
+  }
+
+  handleClick(e) {
+    if (e.keyCode === 13 && this.state.term && this.state.location) {
+        this.props.searchYelp(this.state.term, this.state.location, this.state.sortBy);
+        e.preventDefault();
+
+    }
+
+}
 
   renderSortByOptions() {
     return Object.keys(this.sortByOptions).map(sortByOption => {
@@ -63,17 +88,24 @@ class SearchBar extends React.Component {
     return (
       <div className="SearchBar">
         <div className="SearchBar-sort-options">
-          <ul>
-            {this.renderSortByOptions()}
-          </ul>
+          <ul>{this.renderSortByOptions()}</ul>
         </div>
-        <div className="SearchBar-fields">
-          <input placeholder="Search Businesses" onChange={this.handleTermChange} />
-          <input placeholder="Where?" onChange={this.handleLocationChange}/>
-        </div>
-        <div className="SearchBar-submit">
-          <a onClick={this.handleSearch}>Let's Go</a>
-        </div>
+        <form>
+          <div className="SearchBar-fields">
+            <input
+              placeholder="Search Businesses"
+              onChange={this.handleTermChange} onKeyUp={this.handleKeyPress.bind(this)} />	
+              <input id="txtPlaces" placeholder="Where?"  onKeyUp={this.handleKeyPress.bind(this)} 
+            />
+            <input placeholder="Where?" onChange={this.handleLocationChange} />
+          </div>
+         {/* <div class="SearchBar-submit" onClick={this.handleSearch}>
+            <a>Let's Go</a>
+          </div> */}
+          <button className="SearchBar-submit" onClick={this.handleSearch}>
+            Let's Go!
+          </button>
+        </form>
       </div>
     );
   }

@@ -8,6 +8,7 @@ class Business extends React.Component {
         <div className="image-container">
           <img src={this.props.business.imageSrc} alt=''/>
         </div>
+        
         <h2>{this.props.business.name}</h2>
         <div className="Business-information">
           <div className="Business-address">
@@ -20,9 +21,15 @@ class Business extends React.Component {
             <h3 className="rating">{`${this.props.business.rating} stars`}</h3>
             <p>{`${this.props.business.reviewCount} reviews`}</p>
           </div>
-        </div>
       </div>
-    );
+
+    </div>
+  );
+
   }
 }
+
+
+  
+
 export default Business;

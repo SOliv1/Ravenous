@@ -1,4 +1,6 @@
-const apiKey ="SECRET_API_KEY"
+/*const apiKey ="SECRET_API_KEY"*/
+const apiKey= 
+"";
 
 const Yelp = {
   search(term, location, sortBy) {
@@ -6,11 +8,13 @@ const Yelp = {
       headers: {
         Authorization: `Bearer ${apiKey}`
       }
+
     }).then(response => {
       return response.json();
     }).then(jsonResponse => {
       if (jsonResponse.businesses) {
-        return jsonResponse.businesses.map(business => ({
+        return jsonResponse.businesses.map(business => {
+           return {
           id: business.id,
           imageSrc: business.image_url,
           name: business.name,
@@ -18,10 +22,13 @@ const Yelp = {
           city: business.location.city,
           state: business.location.state,
           zipCode: business.location.zip_code,
-          category: business.categories[0].title,
+          category: business.categories[0].title.toUpperCase(),
           rating: business.rating,
-          reviewCount: business.review_count
-        }));
+          reviewCount: business.review_count,
+          url: business.url,
+            distance: business.distance
+           }
+        });
       }
     });
   }
