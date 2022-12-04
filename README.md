@@ -1,5 +1,6 @@
 [![CodeQL](https://github.com/SOliv1/ravenous/actions/workflows/codeql-analysis.yml/badge.svg?branch=master)](https://github.com/SOliv1/ravenous/actions/workflows/codeql-analysis.yml)
 [![Jekyll site CI](https://github.com/SOliv1/ravenous/actions/workflows/jekyll-docker.yml/badge.svg)](https://github.com/SOliv1/ravenous/actions/workflows/jekyll-docker.yml)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/7a6b36ac-4d19-4e6e-9275-788e43c4bd4a/deploy-status?branch=master)](https://app.netlify.com/sites/ravenous-restaurants-api-app/deploys)
 
 
 
