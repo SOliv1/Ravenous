@@ -95,13 +95,13 @@ class SearchBar extends React.Component {
             <input
               placeholder="Search Businesses"
               onChange={this.handleTermChange} onKeyUp={this.handleKeyPress.bind(this)} />	
-              <input id="txtPlaces" placeholder="Where?"  onKeyUp={this.handleKeyPress.bind(this)} 
+              <input id="txtPlaces" placeholder="Where would you like to eat?"  onKeyUp={this.handleKeyPress.bind(this)} 
             />
-            <input placeholder="Where?" onChange={this.handleLocationChange} />
+            <input placeholder="Where else would you like to go?" onChange={this.handleLocationChange} />
           </div>
-         {/* <div class="SearchBar-submit" onClick={this.handleSearch}>
+         {<div class="SearchBar-submit" onClick={this.handleSearch}>
             <a>Let's Go</a>
-          </div> */}
+          </div> }
           <button className="SearchBar-submit" onClick={this.handleSearch}>
             Let's Go!
           </button>
