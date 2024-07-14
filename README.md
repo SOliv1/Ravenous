@@ -1,7 +1,7 @@
-Getting Started with Create React App
-This project was bootstrapped with Create React App.
+# Getting Started with Create React App
+## This project was bootstrapped with Create React App.
 
-This is the complete project:
+### This is the complete project:
 Ravenous (projects 1, 2, 3 and 4).
 Available Scripts
 In the project directory, you can run:
@@ -35,24 +35,24 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don't have to ever use eject. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-Learn More
+#### Learn More
 You can learn more in the Create React App documentation.
 
 To learn React, check out the React documentation.
 
-Code Splitting
+#### Code Splitting
 This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
 
 Analyzing the Bundle Size
 This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
 
-Making a Progressive Web App
+#### Making a Progressive Web App
 This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
 
-Advanced Configuration
+#### Advanced Configuration
 This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
 
-Deployment
+#### Deployment
 This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
 
 npm run build fails to minify
@@ -61,7 +61,6 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/tr
 Within the Ravenous directory in your terminal, run npm install whatwg-fetch --save to install the whatwg-fetch polyfill and add it to your package.json file.
 Set up and hide Api key from view
 const SECRET_API_KEY=xxxxxxxxxxxxxxx then import the SECRET_API_KEY variable and use it where you need it. Given constants.js is in gitignore, it won’t be pushed to github.
-
 even better would to also make constants.js.example, in example, define the variable but give them an empty string:
 
 const SECRET_API_KEY=`` then in your readme.md, include instructions how this should be set up (copy the example file, and set the variable). the example file can safely be pushed to github.
