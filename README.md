@@ -1,7 +1,6 @@
 [![Jekyll site CI](https://github.com/SOliv1/Ravenous/actions/workflows/jekyll-docker.yml/badge.svg)](https://github.com/SOliv1/Ravenous/actions/workflows/jekyll-docker.yml) [![pages-build-deployment](https://github.com/SOliv1/Ravenous/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/SOliv1/Ravenous/actions/workflows/pages/pages-build-deployment) [![CodeQL](https://github.com/SOliv1/Ravenous/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/SOliv1/Ravenous/actions/workflows/codeql-analysis.yml)
 
-![ravenous](https://github.com/SOliv1/Ravenous/blob/e157824e-9dc4-4fd2-843e-ac4aa2f796bb)
-![ravenous](https://github.com/SOliv1/inspiring-homepage/blob/master/inspiring-homepage-banner.png)
+![ravenous](https://github.com/SOliv1/Ravenous/blob/master/ravenous.png)
 
 # Getting Started with Create React App
 ## This project was bootstrapped with Create React App.
