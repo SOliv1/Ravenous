@@ -1,3 +1,5 @@
+[![Jekyll site CI](https://github.com/SOliv1/Ravenous/actions/workflows/jekyll-docker.yml/badge.svg)](https://github.com/SOliv1/Ravenous/actions/workflows/jekyll-docker.yml)
+
 # Getting Started with Create React App
 ## This project was bootstrapped with Create React App.
 
