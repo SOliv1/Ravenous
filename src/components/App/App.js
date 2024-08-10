@@ -5,8 +5,7 @@ import BusinessList from '../BusinessList/BusinessList';
 import SearchBar from '../SearchBar/SearchBar';
 import Yelp from '../../util/Yelp';
 
-/*import path from os
-if (path.exists("env.py"));*/
+
 
 class App extends React.Component {
   constructor(props) {
@@ -28,7 +27,7 @@ class App extends React.Component {
   render() {
     return (
       <div className="App">
-        <h1>ravenous</h1>
+        <h1>Ravenous</h1>
         <SearchBar searchYelp={this.searchYelp} />
         <BusinessList businesses={this.state.businesses} />
       </div>
