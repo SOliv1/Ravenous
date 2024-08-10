@@ -79,7 +79,9 @@
 
 @media only screen and (max-width: 560px) {
   .SearchBar {
-    background-image: url('./background_search_mobile.jpg');
+    /*background-image: url('./background_search_mobile.jpg');*/
+    /*background-image: url('./allan-lainez-7y2vVGzAQ2o-unsplash.jpg');#*/
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)) , url('./allan-lainez-7y2vVGzAQ2o-unsplash.jpg');
   }
 
   .SearchBar-sort-options ul {
