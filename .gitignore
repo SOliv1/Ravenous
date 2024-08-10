@@ -15,6 +15,7 @@
 constants.js
 # misc
 .DS_Store
+.env
 .env.py
 .env.local
 .env.development.local
