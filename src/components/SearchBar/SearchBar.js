@@ -53,11 +53,6 @@ class SearchBar extends React.Component {
     this.setState({location: event.target.value});
   }
 
-  handleSearch(event) {
-    this.props.searchYelp(this.state.term, this.state.location, this.state.sortBy);
-    event.preventDefault();
-  }
-
   handleKeyPress(event) {
     if (event.key === 'Enter') {
       this.props.searchYelp(this.state.term, this.state.location, this.state.sortBy);
