@@ -1,4 +1,5 @@
 [![Jekyll site CI](https://github.com/SOliv1/Ravenous/actions/workflows/jekyll-docker.yml/badge.svg)](https://github.com/SOliv1/Ravenous/actions/workflows/jekyll-docker.yml) [![pages-build-deployment](https://github.com/SOliv1/Ravenous/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/SOliv1/Ravenous/actions/workflows/pages/pages-build-deployment) [![CodeQL](https://github.com/SOliv1/Ravenous/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/SOliv1/Ravenous/actions/workflows/codeql-analysis.yml) 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/616e393e-0be8-4ddf-b64c-28b6d749fd8e/deploy-status)](https://app.netlify.com/sites/kuk-ravenous/deploys)
 
 
 # Getting Started with Create React App
