@@ -33,6 +33,8 @@ See the section about deployment for more information.
 npm run eject
 Note: this is a one-way operation. Once you eject, you can't go back!
 
+npm i dotenv express cors
+
 If you aren't satisfied with the build tool and configuration choices, you can eject at any time. This command will remove the single build dependency from your project.
 
 Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except eject will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.

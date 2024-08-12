@@ -4,3 +4,9 @@
   flex-wrap: wrap;
   margin: 4.4rem 10%;
 }
+
+.initalText {
+  color: rgb(0, 0, 0, 0.3);
+  font-size: 1.125rem;
+  text-align: center;
+}
