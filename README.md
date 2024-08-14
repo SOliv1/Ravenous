@@ -6,6 +6,8 @@
 ## This project was bootstrapped with Create React App.
 ### CodeCademy
 
+See live site [here](https://kuk-ravenous.netlify.app)
+
 ### This is the complete project:
 Ravenous (projects 1, 2, 3 and 4).
 Available Scripts
