@@ -1,10 +1,42 @@
+
+
 [![Jekyll site CI](https://github.com/SOliv1/Ravenous/actions/workflows/jekyll-docker.yml/badge.svg)](https://github.com/SOliv1/Ravenous/actions/workflows/jekyll-docker.yml) [![pages-build-deployment](https://github.com/SOliv1/Ravenous/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/SOliv1/Ravenous/actions/workflows/pages/pages-build-deployment) [![CodeQL](https://github.com/SOliv1/Ravenous/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/SOliv1/Ravenous/actions/workflows/codeql-analysis.yml) 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/616e393e-0be8-4ddf-b64c-28b6d749fd8e/deploy-status)](https://app.netlify.com/sites/kuk-ravenous/deploys) [![Jekyll site CI](https://github.com/SOliv1/Ravenous/actions/workflows/jekyll-docker.yml/badge.svg)](https://github.com/SOliv1/Ravenous/actions/workflows/jekyll-docker.yml)
+
+## Objectives
+Build a restaurant recommendation website that allows users to search for local businesses based on their location and keywords. The app replicates the core functionality of Yelp.
+
+## Technologies 
+HTML
+CSS
+JavaScript
+React
+Git/GitHub
+Yelp API
+
+##Features
+The app generates a list of recommendations from Yelp
+Restaurant information includes 
+1. image
+1. name 
+1. address 
+1. category
+  2.  rating
+  3.  review count
+
+Users can search recommendations 
+by location or by keywords
+
+Users can also sort results by Best Match, Highest Rated, or Most Reviewed
 
 
 # Getting Started with Create React App
 ## This project was bootstrapped with Create React App.
 ### CodeCademy
+
+See live site [here](https://kuk-ravenous.netlify.app)
+
+![Ravenous](https://github.com/user-attachments/assets/c7a5cd79-c866-4617-8bdd-0ce249bc77b9)
 
 ### This is the complete project:
 Ravenous (projects 1, 2, 3 and 4).
