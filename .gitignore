@@ -10,6 +10,8 @@
 
 # production
 /build
+.toml
+
 
 # secret-key
 constants.js

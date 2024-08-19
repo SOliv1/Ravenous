@@ -1,4 +1,6 @@
 const apiKey = process.env.REACT_APP_API_KEY;
+const cors = "https://cors-anywhere.herokuapp.com/";
+const baseUrl = "https://api.yelp.com/v3";
 
 const Yelp = {
   search(term, location, sortBy) {
