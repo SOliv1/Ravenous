@@ -4,7 +4,14 @@
 [![Netlify Status](https://api.netlify.com/api/v1/badges/616e393e-0be8-4ddf-b64c-28b6d749fd8e/deploy-status)](https://app.netlify.com/sites/kuk-ravenous/deploys) [![Jekyll site CI](https://github.com/SOliv1/Ravenous/actions/workflows/jekyll-docker.yml/badge.svg)](https://github.com/SOliv1/Ravenous/actions/workflows/jekyll-docker.yml)
 
 ## Objectives
-Build a restaurant recommendation website that allows users to search for local businesses based on their location and keywords. The app replicates the core functionality of Yelp.
+Building a restaurant website for recommendations and allows users to search for local businesses based on their location and keywords. The app replicates the core functionality of Yelp.
+
+> Warning regarding cors-anywhere
+> Please note that cors-anywhere is used as a temporary workaround to CORS related issues which occur when developing a front-end app without > a backend. In a commercial environment a project would have a backend and not need this CORS workaround.
+
+> The limitation of cors-anywhere is that access to this service is temporary. It runs out. Which stops the API from working, until access is > requested manually from cors-anywhere. Access lasts maybe one or two days only.
+
+> It is ok to use as a stop-gap in development, or for novices building sample projects to develop and practice skills rather than for serious > use; is not a long term solution.
 
 ## Technologies 
 HTML
