@@ -3,8 +3,12 @@
 [![Jekyll site CI](https://github.com/SOliv1/Ravenous/actions/workflows/jekyll-docker.yml/badge.svg)](https://github.com/SOliv1/Ravenous/actions/workflows/jekyll-docker.yml) [![pages-build-deployment](https://github.com/SOliv1/Ravenous/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/SOliv1/Ravenous/actions/workflows/pages/pages-build-deployment) [![CodeQL](https://github.com/SOliv1/Ravenous/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/SOliv1/Ravenous/actions/workflows/codeql-analysis.yml) 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/616e393e-0be8-4ddf-b64c-28b6d749fd8e/deploy-status)](https://app.netlify.com/sites/kuk-ravenous/deploys) [![Jekyll site CI](https://github.com/SOliv1/Ravenous/actions/workflows/jekyll-docker.yml/badge.svg)](https://github.com/SOliv1/Ravenous/actions/workflows/jekyll-docker.yml)
 
+See live site [here](https://kuk-ravenous.netlify.app)
+
 ## Objectives
-Building a restaurant website for recommendations and allows users to search for local businesses based on their location and keywords. The app replicates the core functionality of Yelp.
+Building a restaurant website for recommendations and allows users to search for local businesses based on their location and keywords. The app replicates the core functionality of Yelp.  To use this app, you must temporarily unlock access to the demo. 
+
+[Click here for cors-anywhere-demo ](https://cors-anywhere.herokuapp.com/corsdemo)
 
 > Warning regarding cors-anywhere
 > Please note that cors-anywhere is used as a temporary workaround to CORS related issues which occur when developing a front-end app without > a backend. In a commercial environment a project would have a backend and not need this CORS workaround.
@@ -40,9 +44,6 @@ Users can also sort results by Best Match, Highest Rated, or Most Reviewed
 # Getting Started with Create React App
 ## This project was bootstrapped with Create React App.
 ### CodeCademy
-
-See live site [here](https://kuk-ravenous.netlify.app)
-
 ![Ravenous](https://github.com/user-attachments/assets/c7a5cd79-c866-4617-8bdd-0ce249bc77b9)
 
 ### This is the complete project:
