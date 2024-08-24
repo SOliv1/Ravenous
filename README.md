@@ -26,9 +26,10 @@ React
 Git/GitHub
 Yelp API
 
-##Features
-The app generates a list of recommendations from Yelp
-Restaurant information includes 
+## Features
+The app generates a list of recommendations from Yelp.
+
+Restaurant information includes: 
 1. image
 1. name 
 1. address 
@@ -42,8 +43,8 @@ by location or by keywords
 Users can also sort results by Best Match, Highest Rated, or Most Reviewed
 
 
-# Getting Started with Create React App
-## This project was bootstrapped with Create React App.
+## Getting Started with Create React App
+### This project was bootstrapped with Create React App.
 ### CodeCademy
 ![Ravenous](https://github.com/user-attachments/assets/c7a5cd79-c866-4617-8bdd-0ce249bc77b9)
 
